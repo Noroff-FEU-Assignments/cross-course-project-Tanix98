@@ -1,32 +1,35 @@
 @font-face {
-font-family: "Tourney";
-    src: url("/Resources/Fonts/Tourney/static/Tourney/Tourney-Black.ttf") format("ttf");
-font-family: "Roboto";
-    src: url("/Resources/Fonts/Roboto/Roboto-Regular.ttf") format("ttf");
-    src: url("/Resources/Fonts/Roboto/Roboto-Medium.ttf") format("ttf");
-    src: url("/Resources/Fonts/Roboto/Roboto-Bold.ttf") format("ttf");
+    font-family: "Roboto-Regular";
+        src: url("/resources/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Medium";
+        src: url("/resources/fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+        src: url("/resources/fonts/Roboto/Roboto-Bold.ttf");
 }
 
 p {
-    font-family: "Roboto", Arial, Helvetica;
+    font-family: "Roboto-Medium", Arial, Helvetica;
 }
 
 body {
-    font-family: "Tourney", Tahoma, Verdana;
-    font-family: "Roboto", Arial, Helvetica;    
+    font-family: "Roboto-Medium", Arial, Helvetica;
+    Background-image: url("../resources/images/Backgrounds/Gradient\ background\ orange-blue\ 2.png"), opacity: ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1E1E1E;
+
 }
 
-h1 {
-    font-family: "Tourney", Tahoma, Verdana;
-}
-
-h2 {
+h1, h2, h3 {
     font-family: "Tourney", Tahoma, Verdana;
 }
 
 header {
-    font-family: "Tourney", Tahoma, Verdana;
-    font-family: "Roboto", Arial, Helvetica;  
+    font-family: "Roboto-Medium", Arial, Helvetica;
 }
 
 @media only screen and (max-width: 600px) {
